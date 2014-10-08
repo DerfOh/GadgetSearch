@@ -1,5 +1,6 @@
 //code designed by Fredrick Paulin
 //credit for the barcode scanner goes to the ZXing team
+//
 
 package com.derfohappco.gadgetsearch;
 
