@@ -1,0 +1,109 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="${relativePackage}.${activityClass}" >
+
+    <TextView
+        android:id="@+id/versionInfo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:text="@string/versionInfo" />
+
+        <DigitalClock
+            android:id="@+id/digitalClock1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:text="@string/digitalclock"
+            tools:ignore="HardcodedText" />
+
+        <EditText
+            android:id="@+id/searchTerm"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_below="@+id/digitalClock1"
+            android:layout_toStartOf="@+id/buttonScanner"
+            android:ems="10"
+            android:hint="@string/search_term_model"
+            android:inputType="text" >
+
+            <requestFocus />
+        </EditText>
+
+        <Button
+            android:id="@+id/searchBestBuyButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_below="@+id/searchTerm"
+            android:text="Best Buy"
+            tools:ignore="HardcodedText" />
+
+        <Button
+            android:id="@+id/buttonScanner"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_above="@+id/searchBestBuyButton"
+            android:layout_alignParentEnd="true"
+            android:text="@string/upc"
+            tools:ignore="HardcodedText" />
+
+        <Button
+            android:id="@+id/searchNeweggButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_below="@+id/searchBestBuyButton"
+            android:text="@string/newegg" />
+
+        <Button
+            android:id="@+id/searchAmazonButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_below="@+id/searchNeweggButton"
+            android:text="@string/amazon" />
+
+        <Button
+            android:id="@+id/searchMicrocenterButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentEnd="true"
+            android:layout_below="@+id/searchAmazonButton"
+            android:text="@string/microcenter"
+            tools:ignore="HardcodedText" />
+
+        <Button
+            android:id="@+id/searchWalmartButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_below="@+id/searchMicrocenterButton"
+            android:text="Walmart"
+            tools:ignore="HardcodedText" />
+
+        <Button
+            android:id="@+id/searchTargetButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_below="@+id/searchWalmartButton"
+            android:text="Target"
+            tools:ignore="HardcodedText" />
+
+        <Button
+            android:id="@+id/searchGoogleButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_below="@+id/searchTargetButton"
+            android:text="@string/google"
+            tools:ignore="HardcodedText" />
+
+</RelativeLayout>

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Gadget Search</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="versionInfo">GadgetSearch v 1.1 -DerfOhAppCo</string>
+    <string name="worked">worked</string>
+    <string name="numberZero">0</string>
+    <string name="rev_hr_">"Rev/Hr: "</string>
+    <string name="digitalclock">DigitalClock</string>
+    <string name="add">Add</string>
+    <string name="totalrev">TotalRev</string>
+    <string name="transactiontotal">TransactionTotal</string>
+    <string name="subtract">Subtract</string>
+    <string name="clear">Clear</string>
+    <string name="settime">SetTime</string>
+    <string name="total_rev">Total Rev</string>
+    <string name="amazon">Amazon</string>
+    <string name="search_term_model">Search Term/Model</string>
+    <string name="newegg">Newegg</string>
+    <string name="upc">UPC</string>
+    <string name="microcenter">Microcenter</string>
+    <string name="google">Google</string>
+    <string name="load">Load</string>
+    <string name="save">Save</string>
+    <string name="notes">Notes</string>
+
+</resources>
